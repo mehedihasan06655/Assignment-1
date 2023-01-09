@@ -1,0 +1,317 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Common Css */
+
+/* Banner Section Css start */
+.banner-area {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: antiquewhite;
+    height: 700px;
+    width: 100%;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.banner-description {
+    color: #444343;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+.banner-content {
+    text-align: right;
+    max-width: 500px;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+}
+
+.banner-btn {
+    background: #F15B22;
+    border: none;
+    font-size: 20px;
+    color: #ffff;
+    padding: 12px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Banner Section Css End */
+
+/* Failure Secction Css Start */
+.failure-content {
+    gap: 114px;
+    display: flex;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 300px;
+    margin-bottom: 28px;
+}
+
+.failure-descriptions {
+    color: #444343;
+    width: 416px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+ul.failures-list li {
+    color: #444343;
+    line-height: 26px;
+}
+
+ul.failures-list li i {
+    margin-right: 10px;
+    color: #16D887;
+    font-size: 19px;
+}
+
+.failures-rigth-part {
+    margin-top: 366px;
+}
+
+.person-img {
+    margin-top: 130px;
+}
+
+/* Failure Secction Css End */
+
+/* Plans Section Css Start */
+.plans-items {
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+}
+
+section.plans-area {
+    text-align: center;
+    margin-top: 130px;
+}
+
+h3.plans-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #151414;
+    padding: 24px 0;
+}
+
+p.plans-content {
+    color: #737272;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+h2.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+/* Plans Section Css End */
+
+/* Social Working Area Css Start */
+h2.social-working-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 55px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.social-working-content {
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+}
+
+.single-working-item img {
+    width: 318px;
+    height: 206px;
+}
+
+section.social-working-area {
+    max-width: 1043px;
+    margin: 0 auto;
+}
+
+h4.working-title {
+    font-size: 21px;
+    line-height: 48px;
+}
+
+p.description {
+    line-height: 25px;
+}
+
+/* Social Working Area Css End */
+
+/* Gradient Section Css Start */
+.gradient-area {
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    width: 1014px;
+    margin: 130px auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.gradient-area::after {
+    position: absolute;
+    background: #ef3f00;
+    background: -moz-linear-gradient(left, #ef3f00 0%, #ef3f00 37%, #e5e5e5 100%);
+    background: -webkit-linear-gradient(left, #ef3f00 0%, #ef3f00 37%, #e5e5e5 100%);
+    background: linear-gradient(to right, #ef3f00 0%, #ef3f00 37%, #e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef3f00', endColorstr='#e5e5e5', GradientType=1);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .8;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.gradient-content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffff;
+    line-height: 47px;
+    width: 460px;
+    margin-bottom: 24px;
+}
+
+.gradient-area-btn {
+    background: #FFFFFF;
+    border: none;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gradient-content {
+    padding: 60px 0;
+    padding-left: 64px;
+    z-index: 99;
+    position: relative;
+}
+
+/* Gradient Section Css End */
+
+/* footer Section Css Start */
+.future-part {
+    margin: 130px 0 130px 167px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 330px;
+    background: #151414;
+    color: #fff;
+}
+
+h2.future-part-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+p.future-description {
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.future-part p {
+    margin-bottom: 19px;
+}
+
+ul.future-icon {
+    display: flex;
+    gap: 18px;
+}
+
+input[type="email"] {
+    background: no-repeat;
+    border: 2px solid #ffffff73;
+    border-radius: 5px;
+    padding: 12px 10px;
+    color: #fff;
+    width: 230px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input[type="submit"] {
+    background: #FFFFFF;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 11px 27px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+h4.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.subscribe {
+    margin-right: 50px;
+}
+
+/* footer Section Css End */
+
